@@ -28,6 +28,8 @@ a {
 html {
   font-family: sans-serif;
   line-height: 1.15;
+  max-width: 2100px;
+  margin: auto;
 }
 .Navbar {
   position: relative;
