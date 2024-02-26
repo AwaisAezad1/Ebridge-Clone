@@ -18,6 +18,15 @@ input,
 i {
   font-family: "Josefin Sans", sans-serif;
 }
+a {
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  font-weight: 600;
+}
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -43,15 +52,7 @@ html {
 .Navbar a img {
   max-width: 160px;
 }
-a {
-  text-decoration: none;
-  background-color: transparent;
-  cursor: pointer;
-  transition: 0.5s;
-  padding: 0.5rem 1rem;
-  font-size: 16px;
-  font-weight: 600;
-}
+
 .Navbar a:hover {
   color: #007bff;
 }
@@ -334,7 +335,10 @@ footer li a {
 .social_links ul {
   max-width: 50%;
 }
-@media (min-width: 551px) and (max-width: 900px) {
+.mobile{
+  display: none;
+}
+@media (min-width: 680px) and (max-width: 900px) {
   h1,h2{
     font-size: 22px !important;
     line-height: 32px !important;
@@ -364,7 +368,7 @@ footer li a {
   width: 100%;
 }
 }
-@media (min-width: 0px) and (max-width: 550px) {
+@media (min-width: 0px) and (max-width: 680px) {
   h1,h2{
     font-size: 22px !important;
     line-height: 32px !important;
@@ -407,7 +411,7 @@ footer li a {
 .menu-btn {
   position: absolute;
   right: 35px;
-  top: 35px;
+  top: 20px;
   cursor: pointer;
   transition: all 0.5s ease-out;
 }

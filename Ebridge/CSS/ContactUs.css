@@ -527,7 +527,7 @@ footer li a {
 .mobile{
   display: none;
 }
-@media (min-width: 551px) and (max-width: 900px) {
+@media (min-width: 680px) and (max-width: 900px) {
   h1,h2{
     font-size: 22px !important;
     line-height: 32px !important;
@@ -564,7 +564,7 @@ footer li a {
   width: 100%;
 }
 }
-@media (min-width:0px) and (max-width: 550px) {
+@media (min-width:0px) and (max-width: 680px) {
   h1,h2{
     font-size: 22px !important;
     line-height: 32px !important;
@@ -607,7 +607,7 @@ footer li a {
 .menu-btn {
   position: absolute;
   right: 35px;
-  top: 35px;
+  top: 20px;
   cursor: pointer;
   transition: all 0.5s ease-out;
 }

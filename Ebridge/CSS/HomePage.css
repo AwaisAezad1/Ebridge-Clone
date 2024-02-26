@@ -16,6 +16,15 @@ p,
 a {
   font-family: "Josefin Sans", sans-serif !important;
 }
+a {
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  font-weight: 600;
+}
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -27,32 +36,28 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2rem;
-  margin-top: 10px;
+  padding: 5px 2rem;
 }
 .links {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  gap: 20px;
 }
 .links a {
   color: #222;
   font-size: 16px;
   font-weight: 600;
 }
+.Navbar a{
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
 .Navbar a img {
   max-width: 160px;
+  margin-top: 4px;
 }
-a {
-  text-decoration: none;
-  background-color: transparent;
-  cursor: pointer;
-  transition: 0.5s;
-  padding: 0.5rem 1rem;
-  font-size: 16px;
-  font-weight: 600;
-}
+
 .Navbar a:hover {
   color: #007bff;
 }
@@ -822,7 +827,7 @@ footer li a {
 .mobile{
   display: none;
 }
-@media (min-width: 551px) and (max-width: 900px) {
+@media (min-width: 751px) and (max-width: 900px) {
   h1,h2{
     font-size: 22px !important;
     line-height: 32px !important;
@@ -874,7 +879,7 @@ footer li a {
   max-height: 100px;
 }
 }
-@media (min-width: 0px) and (max-width: 550px) {
+@media (min-width: 0px) and (max-width: 750px) {
   
   .mobile #myLinks {
     display: none;
@@ -902,7 +907,7 @@ footer li a {
 .menu-btn {
   position: absolute;
   right: 35px;
-  top: 35px;
+  top: 20px;
   cursor: pointer;
   transition: all 0.5s ease-out;
 }
